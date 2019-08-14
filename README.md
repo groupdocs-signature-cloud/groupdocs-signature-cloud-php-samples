@@ -24,7 +24,7 @@ To use SDK you need AppSID and AppKey authorization keys. You can your AppSID an
 ## Installation & Usage
 ### Composer
 
-The package is available at [Packagist](https://packagist.org/) and it can be installed via [Composer](http://getcomposer.org/) by executing following command:
+The package is available at [Packagist](https://packagist.org/packages/groupdocscloud/groupdocs-signature-cloud) and it can be installed via [Composer](http://getcomposer.org/) by executing following command:
 ```
 composer require groupdocscloud/signature-sdk-php
 ``` 
