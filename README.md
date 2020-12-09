@@ -1,7 +1,6 @@
 ## GroupDocs.Signature Cloud SDK for PHP Examples
 This repository contains [Examples](Examples) projects for [GroupDocs.Signature Cloud SDK for PHP](https://github.com/groupdocs-signature-cloud/groupdocs-signature-cloud-php) to help you learn and write your own applications.
 
-
 [GroupDocs.Signature Cloud SDK for PHP](https://products.groupdocs.cloud/signature/php) allows you to work with [GroupDocs.Signature Cloud API](https://products.groupdocs.cloud/signature) REST APIs in your PHP applications.
 
 <p align="center">
@@ -13,17 +12,17 @@ This repository contains [Examples](Examples) projects for [GroupDocs.Signature 
 ## Prerequisites
 
 + PHP with Composer installed
-+ Get your AppSID and AppKey at [https://dashboard.groupdocs.cloud](https://dashboard.groupdocs.cloud) (free registration is required).
++ Get your ClientId and ClientSecret at [https://dashboard.groupdocs.cloud](https://dashboard.groupdocs.cloud) (free registration is required).
 
 ## How to Run the Examples?
 
 The package contains PHP examples. Follow the given steps to proceed run:
 
-* Extract the downloaded project
-* Edit CommonUtils.php and put appSid and appKey, obtained from [https://dashboard.groupdocs.cloud](https://dashboard.groupdocs.cloud) there
-* Go to "Examples" directory of the project
-* Execute "composer update" command
-* Run examples using "php .\RunExamples.php" command
++ Extract the downloaded project
++ Edit CommonUtils.php and put ClientId and ClientSecret, obtained from [https://dashboard.groupdocs.cloud](https://dashboard.groupdocs.cloud) there
++ Go to "Examples" directory of the project
++ Execute "composer update" command
++ Run examples using "php .\RunExamples.php" command
 
 For more details, visit  [Getting Started](https://docs.groupdocs.cloud/signature/getting-started/).
 
