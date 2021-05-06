@@ -7,6 +7,7 @@ include(__DIR__ . '\BasicUsage\GetSupportedFormats.php');
 include(__DIR__ . '\BasicUsage\GetSupportedBarcodes.php');
 include(__DIR__ . '\BasicUsage\GetSupportedQRCodes.php');
 include(__DIR__ . '\BasicUsage\GetDocumentInformation.php');
+include(__DIR__ . '\BasicUsage\GetDocumentPreview.php');
 include(__DIR__ . '\BasicUsage\WorkingWithStorage\GetDiscUsage.php');
 include(__DIR__ . '\BasicUsage\WorkingWithStorage\GetFileVersions.php');
 include(__DIR__ . '\BasicUsage\WorkingWithStorage\ObjectExists.php');
@@ -40,36 +41,37 @@ Utils::UploadResources();
 
 GetSupportedFormats::Run();
 GetDocumentInformation::Run();
+GetDocumentPreview::Run();
 GetSupportedBarcodes::Run();
 GetSupportedQRCodes::Run();
 GetDiscUsage::Run();
-//GetFileVersions::Run();
-//ObjectExists::Run();
-//StorageExist::Run();
+GetFileVersions::Run();
+ObjectExists::Run();
+StorageExist::Run();
 
 // Advanced usage Examples
 
 BarcodeSignature::Run();
-//CollectionSignature::Run();
-//DigitalSignature::Run();
-//ImageSignature::Run();
-//QRCodeSignature::Run();
-//StampSignature::Run();
-//TextSignature::Run();
+CollectionSignature::Run();
+DigitalSignature::Run();
+ImageSignature::Run();
+QRCodeSignature::Run();
+StampSignature::Run();
+TextSignature::Run();
 
 SearchBarcode::Run();
-//SearchCollection::Run();
-//SearchDigital::Run();
-//SearchQRCode::Run();
+SearchCollection::Run();
+SearchDigital::Run();
+SearchQRCode::Run();
 
 VerifyBarcode::Run();
-//VerifyCollection::Run();
-//VerifyDigital::Run();
-//VerifyQRCode::Run();
-//VerifyText::Run();
+VerifyCollection::Run();
+VerifyDigital::Run();
+VerifyQRCode::Run();
+VerifyText::Run();
 
 UpdateBarcode::Run();
-//UpdateQRCode::Run();
+UpdateQRCode::Run();
 
 DeleteBarcode::Run();
-//DeleteQRCode::Run();
+DeleteQRCode::Run();

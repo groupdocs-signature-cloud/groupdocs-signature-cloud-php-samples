@@ -19,7 +19,7 @@ This repository contains [Examples](Examples) projects for [GroupDocs.Signature 
 The package contains PHP examples. Follow the given steps to proceed run:
 
 + Extract the downloaded project
-+ Edit CommonUtils.php and put ClientId and ClientSecret, obtained from [https://dashboard.groupdocs.cloud](https://dashboard.groupdocs.cloud) there
++ Edit Utils.php and put ClientId and ClientSecret, obtained from [https://dashboard.groupdocs.cloud](https://dashboard.groupdocs.cloud) there
 + Go to "Examples" directory of the project
 + Execute "composer update" command
 + Run examples using "php .\RunExamples.php" command

@@ -1,8 +1,8 @@
 {
     "name": "groupdocscloud/groupdocs-signature-cloud-php-examples",
     "description": "GroupDocs.Signature Cloud SDK for PHP Examples",
-    "license": "MIT",   
+    "license": "MIT",    
     "require": {
-        "groupdocscloud/groupdocs-signature-cloud": "20.7"
+        "groupdocscloud/groupdocs-signature-cloud": "21.5"
     }
 }

@@ -38,6 +38,20 @@ class Utils {
         return new GroupDocs\Signature\InfoApi($configuration);
     }
 
+    // Getting the Info API Instance
+    public static function GetPreviewApiInstance() {
+        // intializing the configuration
+        $configuration = new GroupDocs\Signature\Configuration();
+
+        // Seting the configurations
+        $configuration->setAppSid(Utils::$ClientId);
+        $configuration->setAppKey(Utils::$ClientSecret);
+        $configuration->setApiBaseUrl(Utils::$ApiBaseUrl);
+
+        // Retrun the new Info instance
+        return new GroupDocs\Signature\PreviewApi($configuration);
+    }
+
 	// Getting the Signature StorageAPI API Instance
     public static function GetStorageApiInstance() {
         // intializing the configuration
