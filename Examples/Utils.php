@@ -94,6 +94,20 @@ class Utils {
         return new GroupDocs\Signature\FileApi($configuration);
     }
 
+	// Getting the Signature LicenseAPI API Instance
+    public static function GetLicenseApiInstance() {
+        // intializing the configuration
+        $configuration = new GroupDocs\Signature\Configuration();
+
+        // Seting the configurations
+        $configuration->setAppSid(Utils::$ClientId);
+        $configuration->setAppKey(Utils::$ClientSecret);
+        $configuration->setApiBaseUrl(Utils::$ApiBaseUrl);
+
+        // Retrun the new FileApi instance
+        return new GroupDocs\Signature\LicenseApi($configuration);
+    }
+
     // Uploading sample files into storage
     public static function UploadResources() {
         $storageApi = self::GetStorageApiInstance();
