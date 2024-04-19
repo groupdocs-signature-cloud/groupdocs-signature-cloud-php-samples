@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "51a8512fc05718e9c613dde1a14c41df",
+    "content-hash": "6f850f9d147d918d326b7210550d3172",
     "packages": [
         {
             "name": "groupdocscloud/groupdocs-signature-cloud",
-            "version": "23.12",
+            "version": "24.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/groupdocs-signature-cloud/groupdocs-signature-cloud-php.git",
-                "reference": "bf929a3ea6164c963eb25538995e9c2655327a6e"
+                "reference": "77f895c6f49f687042657ffb951c3bcd1ecdfceb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/groupdocs-signature-cloud/groupdocs-signature-cloud-php/zipball/bf929a3ea6164c963eb25538995e9c2655327a6e",
-                "reference": "bf929a3ea6164c963eb25538995e9c2655327a6e",
+                "url": "https://api.github.com/repos/groupdocs-signature-cloud/groupdocs-signature-cloud-php/zipball/77f895c6f49f687042657ffb951c3bcd1ecdfceb",
+                "reference": "77f895c6f49f687042657ffb951c3bcd1ecdfceb",
                 "shasum": ""
             },
             "require": {
@@ -61,9 +61,9 @@
             ],
             "support": {
                 "issues": "https://github.com/groupdocs-signature-cloud/groupdocs-signature-cloud-php/issues",
-                "source": "https://github.com/groupdocs-signature-cloud/groupdocs-signature-cloud-php/tree/v23.12"
+                "source": "https://github.com/groupdocs-signature-cloud/groupdocs-signature-cloud-php/tree/v24.4"
             },
-            "time": "2023-12-13T15:28:51+00:00"
+            "time": "2024-04-18T06:58:40+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
