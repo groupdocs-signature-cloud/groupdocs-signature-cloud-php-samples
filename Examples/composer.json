@@ -3,6 +3,6 @@
     "description": "GroupDocs.Signature Cloud SDK for PHP Examples",
     "license": "MIT",    
     "require": {
-        "groupdocscloud/groupdocs-signature-cloud": "24.11"
+        "groupdocscloud/groupdocs-signature-cloud": "24.12"
     }
 }

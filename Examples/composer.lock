@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5088360e6e4a863fdbb7b5fc51e27124",
+    "content-hash": "71495abee2d449571f9071f314e378db",
     "packages": [
         {
             "name": "groupdocscloud/groupdocs-signature-cloud",
-            "version": "24.11",
+            "version": "24.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/groupdocs-signature-cloud/groupdocs-signature-cloud-php.git",
-                "reference": "0e1268b62b45ca8a7593bce8b82a10728359d1f6"
+                "reference": "736da88ea6c200c052ed82c1b09c6e6cf5b94076"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/groupdocs-signature-cloud/groupdocs-signature-cloud-php/zipball/0e1268b62b45ca8a7593bce8b82a10728359d1f6",
-                "reference": "0e1268b62b45ca8a7593bce8b82a10728359d1f6",
+                "url": "https://api.github.com/repos/groupdocs-signature-cloud/groupdocs-signature-cloud-php/zipball/736da88ea6c200c052ed82c1b09c6e6cf5b94076",
+                "reference": "736da88ea6c200c052ed82c1b09c6e6cf5b94076",
                 "shasum": ""
             },
             "require": {
@@ -61,9 +61,9 @@
             ],
             "support": {
                 "issues": "https://github.com/groupdocs-signature-cloud/groupdocs-signature-cloud-php/issues",
-                "source": "https://github.com/groupdocs-signature-cloud/groupdocs-signature-cloud-php/tree/v24.11"
+                "source": "https://github.com/groupdocs-signature-cloud/groupdocs-signature-cloud-php/tree/v24.12"
             },
-            "time": "2024-11-22T08:48:58+00:00"
+            "time": "2024-12-09T07:02:28+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -596,16 +596,16 @@
         },
         {
             "name": "symfony/deprecation-contracts",
-            "version": "v3.5.0",
+            "version": "v3.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/deprecation-contracts.git",
-                "reference": "0e0d29ce1f20deffb4ab1b016a7257c4f1e789a1"
+                "reference": "74c71c939a79f7d5bf3c1ce9f5ea37ba0114c6f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/0e0d29ce1f20deffb4ab1b016a7257c4f1e789a1",
-                "reference": "0e0d29ce1f20deffb4ab1b016a7257c4f1e789a1",
+                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/74c71c939a79f7d5bf3c1ce9f5ea37ba0114c6f6",
+                "reference": "74c71c939a79f7d5bf3c1ce9f5ea37ba0114c6f6",
                 "shasum": ""
             },
             "require": {
@@ -643,7 +643,7 @@
             "description": "A generic function and convention to trigger deprecation notices",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.5.0"
+                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.5.1"
             },
             "funding": [
                 {
@@ -659,7 +659,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-04-18T09:32:20+00:00"
+            "time": "2024-09-25T14:20:29+00:00"
         }
     ],
     "packages-dev": [],
